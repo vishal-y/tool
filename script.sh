@@ -3,8 +3,6 @@
 
 clear
 
-termux-setup-storage
-
 read -p "do you want to add extra keys (y/n) : " key
 
 if [[ $key = "y" ]]
@@ -37,7 +35,6 @@ ls
 cd zphisher
 ls
 chmod +x *
-mv zphisher /data/data/com.termux/files/home
 exit
 
  else
@@ -64,8 +61,6 @@ apt update
 
  wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh
 chmod +x * metasploit.sh
-
-mv metasploit /data/data/com.termux/files/home
 
 exit
 
