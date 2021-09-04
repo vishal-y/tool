@@ -20,11 +20,11 @@ do
    if [[ $tool = nexphisher ]]
 then
    echo
-   read -p  ">>  do you want to install zphihser (y/n) : " ans 
+   read -p  ">>  do you want to install nexphihser (y/n) : " ans 
   if [[ $ans = "y" ]]
 then
     clear
-   echo " zphihser "
+   echo " nexphihser "
     
 pkg install php -y
 pkg install wget -y
