@@ -3,6 +3,7 @@
 
 clear
 
+termux-setup-storage
 
 read -p "do you want to add extra keys (y/n) : " key
 
