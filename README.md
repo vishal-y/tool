@@ -1,6 +1,6 @@
 # tool
 
-Clone this repo in termux
+clone this repo in termux
 
 git clone https://github.com/vishal-y/tool
 
