@@ -15,9 +15,9 @@ clear
 
 echo "enter tool number "
 echo
-select tool in zphisher metasploit more 
+select tool in nexphisher metasploit more 
 do
-   if [[ $tool = zphisher ]]
+   if [[ $tool = nexphisher ]]
 then
    echo
    read -p  ">>  do you want to install zphihser (y/n) : " ans 
@@ -25,16 +25,16 @@ then
 then
     clear
    echo " zphihser "
-    echo " downloading dependencies.... "
-  pkg install php -y
-  pkg install wget -y
-  pkg install curl -y
- git clone git://github.com/htr-tech/zphisher.git
+    
+pkg install php -y
+pkg install wget -y
+apt update
+apt install git -y
+git clone git://github.com/htr-tech/nexphisher.git
+cd nexphisher
+ls
+bash tmux_setup
 
-ls
-cd zphisher
-ls
-chmod +x *
 exit
 
  else
