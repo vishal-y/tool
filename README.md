@@ -2,6 +2,6 @@
 
 Clone this repo in termux
 
-Git clone https://github.com/vishal-y/tool
+git clone https://github.com/vishal-y/tool
 
 Termux tool
