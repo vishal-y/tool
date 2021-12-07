@@ -73,5 +73,5 @@ then
   echo "more tools coming soon "
 else
   continue
-fi #first if else
+fi #first if else ends here
 done
