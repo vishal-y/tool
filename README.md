@@ -1,5 +1,3 @@
-# tool
-
 
 what's new 1.4v
 
@@ -8,9 +6,3 @@ what's new 1.4v
 3. developer support
 4. fixed bugs 
 
-
-clone this repo in termux
-
-git clone https://github.com/vishal-y/tool
-
-Termux tool
